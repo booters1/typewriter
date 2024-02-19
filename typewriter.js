@@ -10,3 +10,8 @@ for (let i = 0; i < sentence.length; i++) {
 
   }, delay);
 }
+
+// when sentence length is completed, skip line
+setTimeout(() => {
+  console.log();
+}, 50 * sentence.length);
